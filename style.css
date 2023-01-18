@@ -1,0 +1,101 @@
+
+
+header {
+    font-family: fantasy;
+    font-size: 150%;
+    text-align: center;
+}
+.title{
+    margin:2em 0;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+.title:before, .title:after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: -webkit-calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: black;
+}
+.title:before {left: 10px;}
+.title:after {right: 10px;}
+.title p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+b{
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+
+select,button{
+
+    font-family:  Century Gothic;  
+}
+h2,h3,h4,h5 { 
+    font-family:  Century Gothic;
+    font-size: 150%;
+    text-align: center;
+}
+h3 {
+    position: relative;
+    padding:0.25em 1em;
+}
+h3:before,h3:after{ 
+    content:'';
+    width: 25px;
+    height: 35px;
+    position: absolute;
+    display: inline-block;
+}
+h3:before{
+    border-left: solid 1px #5767bf;
+    border-top: solid 1px #5767bf;
+    top:0;
+    left: 60px;
+}
+h3:after{
+    border-right: solid 1px #5767bf;
+    border-bottom: solid 1px #5767bf;
+    bottom:0;
+    right: 60px;
+}
+h3 p {
+    margin: 0; 
+    padding: 0;
+}
+
+h7{
+    font-family: Century Gothic;
+    font-size: 120%;
+    text-align: center;
+    letter-spacing:1px;
+}
+
+form{
+    text-align: center; 
+    font-size: 200%;
+}
+
+ p{
+    margin:5px 250px;
+    background: #f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
+}
+
+.image{
+    text-align: center;   
+}
+
+footer{
+    text-align: right;
+    font-size: 10%;
+    padding:80px;
+}
